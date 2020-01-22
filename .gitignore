@@ -133,3 +133,20 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/java,gradle,intellij+all
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+.history/*
+.vscode-server/bin/*
+!.vscode-server/bin/.gitkeep
+.vscode-server/extensions/*
+!.vscode-server/extensions/.gitkeep
